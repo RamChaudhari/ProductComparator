@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    min-height: 100%;
+    height: fit-content;
+}
+
+#body {
+    background: url("/bg_1.jpg");
+    background-attachment: fixed;
+}
+
+#root {
+    backdrop-filter: blur(5px);
+}
+
+.product-card {
+    background: linear-gradient(135deg, rgba(255,255,255, 0.0), rgba(255,255,255, 0.15));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}

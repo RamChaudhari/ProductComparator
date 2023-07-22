@@ -1,0 +1,3 @@
+- change bg
+- select categories while searching
+- 
